@@ -19,6 +19,7 @@ If you use this dataset, please cite:
   title={Data-driven state-space identification and nonlinearity assessment of the CubeSpec Fine Steering Mirror},
   author={Floren, Merijn and Peri, Leonardo and De Maeyer, Jeroen and De Munter, Wim and Vandepitte, Dirk and No{\"e}l, Jean-Philippe},
   journal={ISMA-USD2024},
+  pages={2042--2052},
   year={2024}
 }
 ```
