@@ -8,7 +8,7 @@ Further details about the dataset and its experimental setup can be found [here]
 
 ## Baseline model
 
-A baseline implementation for a linear model is included.  It uses the [`freq-statespace`](https://github.com/merijnfloren/freq-statespace) Python package to fit a 28th-order state-space model.  While the model achieves a good fit, the residuals do not match the experimental noise floor, indicating that more advanced nonlinear models could further improve performance.
+A baseline implementation for a linear model is included.  It uses the [`freq-statespace`](https://github.com/merijnfloren/freq-statespace) Python package to fit a 28th-order state-space model.  While the model achieves a good fit on test data, the residuals do not match the experimental noise floor, indicating that more advanced nonlinear models could further improve performance.
 
 ## Citation
 
