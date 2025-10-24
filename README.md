@@ -4,21 +4,15 @@ This benchmark dataset contains input–output data from the CubeSpec Fine Steer
 
 The excitation signals are orthogonal random-phase multisines spanning a wide frequency range, and are applied at three different amplitude levels.  The system behaves mostly linearly, but the presence of hysteresis in the piezo-actuators introduces dynamic nonlinearities, making the dataset well-suited for benchmarking nonlinear identification methods.
 
----
-
-### Baseline model
+## Baseline model
 
 A baseline implementation for a linear model is included.  It uses the [`freq-statespace`](https://github.com/merijnfloren/freq-statespace) Python package to fit a 28th-order state-space model.  While the model achieves a good fit, the residuals do not match the experimental noise floor, indicating that more advanced nonlinear models could further improve performance.
 
----
-
-### More information
+## More information
 
 Further details about the dataset and its experimental setup can be found [here](https://lirias.kuleuven.be/retrieve/775145).
 
----
-
-### Citation
+## Citation
 
 If you use this dataset, please cite:
 
