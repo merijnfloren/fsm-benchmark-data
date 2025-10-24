@@ -4,7 +4,7 @@ This benchmark dataset contains input–output data from the CubeSpec Fine Steer
 
 The excitation signals are orthogonal random-phase multisines spanning a wide frequency range, and are applied at three different amplitude levels.  The system behaves mostly linearly, but the presence of hysteresis in the piezo-actuators introduces dynamic nonlinearities, making the dataset well-suited for benchmarking nonlinear identification methods.
 
-Further details about the dataset and its experimental setup can be found [here](https://lirias.kuleuven.be/retrieve/775145).
+Further details about the dataset and its experimental setup can be found [here](https://past.isma-isaac.be/downloads/isma2024/proceedings/Contribution_245_proceeding_3.pdf).
 
 ## Baseline model
 
