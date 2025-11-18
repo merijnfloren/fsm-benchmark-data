@@ -20,3 +20,7 @@ build/
 # Linters/formatters
 .flake8
 .ruff_cache/
+
+# Raw data and preprocessing file
+Tests/
+preprocess.ipynb
