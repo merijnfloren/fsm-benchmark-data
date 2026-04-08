@@ -1,7 +1,8 @@
 # CubeSpec Fine Steering Mirror benchmark dataset
 
-
-![image](img/setup.png)
+<p align="center">
+  <img src="img/setup.png" />
+</p>
 
 This benchmark dataset contains input–output data from the CubeSpec Fine Steering Mirror, a multi-input multi-output high-precision control platform used in a small satellite. Voltages applied to three piezo-actuators serve as inputs, while the mirror displacements measured at three non-collocated reference points serve as outputs.
 
