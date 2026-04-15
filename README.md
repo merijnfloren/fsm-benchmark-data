@@ -8,7 +8,7 @@
 
 This benchmark dataset contains input–output data from the CubeSpec Fine Steering Mirror, a multi-input multi-output high-precision control platform used in a small satellite. Voltages applied to three piezo-actuators serve as inputs, while the mirror displacements measured at three non-collocated reference points serve as outputs.
 
-The excitation signals are orthogonal random-phase multisines spanning a wide frequency range, and are applied at three different amplitude levels.  The system behaves mostly linearly, but the presence of hysteresis in the piezo-actuators introduces dynamic nonlinearities, making the dataset well-suited for benchmarking nonlinear identification methods.
+The excitation signals are orthogonal random-phase multisines spanning a wide frequency range, and are applied at three different amplitude levels.  The system behaves mostly linearly, but the presence of hysteresis in the piezo-actuators introduces dynamic nonlinearities, making the dataset well-suited for benchmarking nonlinear identification methods. Key challenges mainly arise from its high dimensionality and include, e.g., model order selection, the decoupling of multivariate nonlinearities, and maintaining computational tractability during both identification and deployment.
 
 Further details about the dataset and its experimental setup can be found [here](https://past.isma-isaac.be/downloads/isma2024/proceedings/Contribution_245_proceeding_3.pdf).
 
@@ -20,8 +20,8 @@ LFR model with a feedforward neural network in the feedback path is fitted
 using data from all three amplitude levels combined. All models are
 estimated using the
 [`freq-statespace`](https://github.com/merijnfloren/freq-statespace)
-package. The fitting and analysis results can be found in
-`./baseline_results/`.
+package. The fitting and analysis results can be found in the
+`baseline_results/` folder.
 
 ## Citation
 
