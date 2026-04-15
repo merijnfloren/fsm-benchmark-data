@@ -36,3 +36,18 @@ If you use this dataset, please cite:
   year={2024}
 }
 ```
+
+When referring to the baseline models, please cite:
+```
+@misc{floren2026baseline,
+  author       = {Merijn Floren},
+  title        = {Baseline models for the {Fine Steering Mirror} benchmark dataset},
+  month        = apr,
+  year         = {2026},
+  publisher    = {Zenodo},
+  note         = {Version v2026.04.15},
+  doi          = {10.5281/zenodo.19591136},
+  url          = {https://doi.org/10.5281/zenodo.19591136},
+  howpublished = {\url{https://doi.org/10.5281/zenodo.19591136}},
+}
+```
