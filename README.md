@@ -43,7 +43,6 @@ When referring to the baseline models, please cite:
 @misc{floren2026baseline,
   author       = {Floren, Merijn},
   title        = {Baseline models for the {Fine Steering Mirror} benchmark dataset},
-  month        = apr,
   year         = {2026},
   publisher    = {Zenodo},
   note         = {Version v2026.04.15},
