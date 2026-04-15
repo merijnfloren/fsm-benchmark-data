@@ -1,7 +1,9 @@
 # CubeSpec Fine Steering Mirror benchmark dataset
 
+> Part of [nonlinearbenchmarks.org](https://www.nonlinearbenchmark.org/) and its [official dataloader](https://github.com/MaartenSchoukens/nonlinear_benchmarks).
+
 <p align="center">
-  <img src="img/setup.png" />
+  <img src="docs/imgs/setup.png" />
 </p>
 
 This benchmark dataset contains input–output data from the CubeSpec Fine Steering Mirror, a multi-input multi-output high-precision control platform used in a small satellite. Voltages applied to three piezo-actuators serve as inputs, while the mirror displacements measured at three non-collocated reference points serve as outputs.
@@ -10,9 +12,16 @@ The excitation signals are orthogonal random-phase multisines spanning a wide fr
 
 Further details about the dataset and its experimental setup can be found [here](https://past.isma-isaac.be/downloads/isma2024/proceedings/Contribution_245_proceeding_3.pdf).
 
-## Baseline model
+## Baseline models
 
-A baseline implementation for a linear model is included.  It uses the [`freq-statespace`](https://github.com/merijnfloren/freq-statespace) Python package to fit a 28th-order state-space model.  While the model achieves a good fit on test data, the residuals do not match the experimental noise floor, indicating that more advanced nonlinear models could further improve performance.
+Baseline models are provided for benchmarking purposes. Three linear 28th-order state-space models are
+fitted separately at each amplitude level. In addition, a single nonlinear
+LFR model with a feedforward neural network in the feedback path is fitted
+using data from all three amplitude levels combined. All models are
+estimated using the
+[`freq-statespace`](https://github.com/merijnfloren/freq-statespace)
+package. The fitting and analysis results can be found in
+`./baseline_results/`.
 
 ## Citation
 
