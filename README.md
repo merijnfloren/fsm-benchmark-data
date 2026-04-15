@@ -29,18 +29,19 @@ If you use this dataset, please cite:
 
 ```bibtex
 @article{floren2024data,
-  title={Data-driven state-space identification and nonlinearity assessment of the CubeSpec Fine Steering Mirror},
-  author={Floren, Merijn and Peri, Leonardo and De Maeyer, Jeroen and De Munter, Wim and Vandepitte, Dirk and No{\"e}l, Jean-Philippe},
-  journal={ISMA-USD2024},
-  pages={2042--2052},
-  year={2024}
+  title        = {Data-driven state-space identification and nonlinearity assessment of the {CubeSpec Fine Steering Mirror}},
+  author       = {Floren, Merijn and Peri, Leonardo and De Maeyer, Jeroen and De Munter, Wim and Vandepitte, Dirk and No{\"e}l, Jean-Philippe},
+  journal      = {ISMA-USD2024},
+  pages        = {2042--2052},
+  year         = {2024}
 }
 ```
 
+
 When referring to the baseline models, please cite:
-```
+```bibtex
 @misc{floren2026baseline,
-  author       = {Merijn Floren},
+  author       = {Floren, Merijn},
   title        = {Baseline models for the {Fine Steering Mirror} benchmark dataset},
   month        = apr,
   year         = {2026},
